@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  sensor: {
+    apiPath: 'https://localhost:5001'
+  }
 };

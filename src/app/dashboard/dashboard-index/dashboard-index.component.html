@@ -1,0 +1,5 @@
+<app-dashboard-widget title="Pressure" units="PSI" limit="20" [value]="(latestReading$ | async)?.pressure"></app-dashboard-widget>
+
+<app-dashboard-widget title="Oxygen" units="%" limit="100" [value]="(latestReading$ | async)?.oxygen"></app-dashboard-widget>
+
+<app-dashboard-widget title="Temp" units="C" limit="35" [value]="(latestReading$ | async)?.temperature"></app-dashboard-widget>
