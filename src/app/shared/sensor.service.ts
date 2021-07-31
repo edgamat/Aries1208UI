@@ -25,6 +25,6 @@ export class SensorService {
 
     // return of(data);
 
-    return this.httpClient.get<ReadingModel>(`${environment.sensor.apiPath}/sensor`);
+    return this.httpClient.get<ReadingModel>(`${environment.sensor.apiPath}/reading`);
   }
 }
